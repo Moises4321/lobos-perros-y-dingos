@@ -1,7 +1,9 @@
-h1.titulo{
+
+h1.identificador{
     font-size: 280%;
     font-weight: 900;
     text-align: center;
+    background-color: red;
 }
 body.fondo{
     background-color: grey;
