@@ -1,0 +1,31 @@
+h1.titulo{
+    font-size: 280%;
+    font-weight: 900;
+    text-align: center;
+}
+body.fondo{
+    background-color: grey;
+}
+span.lobo{
+    font-style: italic;
+    font-size: 200%;
+}
+
+span.perro{
+    color: red;
+    font-style: italic;
+    font-size: 200%;
+}
+span.dingo{
+    color: red;
+    font-style: italic;
+    font-size: 200%;
+}
+p.perro{
+    text-align: center;
+
+}
+
+p.dingo{
+    text-align: right;
+}
