@@ -60,3 +60,19 @@ img.lobo{
 p.pie{
     clear: both;
 }
+
+
+
+
+
+
+ul.1{
+    list-style-type: circle;
+}
+ul.2{
+    list-style-type: disc;
+}
+ul.3{
+    list-style-type: square
+    ;
+}
