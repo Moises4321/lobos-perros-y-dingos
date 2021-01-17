@@ -66,13 +66,42 @@ p.pie{
 
 
 
-ul.1{
+ul.prime{
     list-style-type: circle;
 }
-ul.2{
+ul.secon{
     list-style-type: disc;
 }
-ul.3{
-    list-style-type: square
-    ;
+ul.tercer{
+    list-style-type: square;
+}
+
+ol.prueba1{
+    list-style-type: upper-alpha;
+}
+
+ol.prueba2{
+    list-style-type: lower-alpha;
+}
+
+div.rojo{
+    background-color: red;
+}
+
+span.color{
+    background-color: red;
+}
+dl.solo{
+    clear: both;
+    
+    font-size: 150%;
+}
+section.solo{
+    text-align: center;
+}
+table{
+    border: red;
+}
+td,th{
+    border: blue;
 }
