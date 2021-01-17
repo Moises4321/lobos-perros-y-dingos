@@ -1,12 +1,22 @@
 
 h1.identificador{
     font-size: 280%;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+}
+h1.secundario{
+    font-size: 280%;
     font-weight: 900;
     text-align: center;
     background-color: red;
 }
 body.fondo{
     background-color: grey;
+}
+span.animal{
+    font-style: italic;
+    font-size: 200%;
 }
 span.lobo{
     font-style: italic;
@@ -30,4 +40,23 @@ p.perro{
 
 p.dingo{
     text-align: right;
+}
+div.lobo{
+    background-color: red;
+    display: inline-block;
+}
+span.sub{
+    font-size: 150%;
+    font-style: italic;
+}
+img.lobo{
+    float: right;
+}
+
+
+
+
+
+p.pie{
+    clear: both;
 }
