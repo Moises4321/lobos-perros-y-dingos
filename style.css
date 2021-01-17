@@ -99,9 +99,29 @@ dl.solo{
 section.solo{
     text-align: center;
 }
-table{
-    border: red;
+table.laborde{
+    border: red 2px solid;
 }
 td,th{
-    border: blue;
+    border: blue 2px solid;
+}
+table.perro{
+    border: tomato 2px solid;
+}
+td.perro{
+    border: teal 2px solid;
+}
+th.perro{
+    border: springgreen 2px solid;
+}
+tr.perro{
+    border: turquoise 2px solid;
+}
+p.especial{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+table.años{
+    border: yellow 3px solid;
 }
