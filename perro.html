@@ -5,18 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perro</title>
     <link rel="stylesheet" href="style.css">
+   
+<script>
+
+    function funcion_nom() {
+    
+    var nom = document.getElementById("name").value;
+    
+    alert ('bienvenido ' + nom)
+    
+    }
+    
+    
+    
+    function funcion_edad() {
+    
+    var age = document.getElementById("age").value;
+    
+    alert ('con ' + age + ' ya tendrás el carnet de conducir. ¿no?')
+    
+    }
+    
+    
+    
+    </script>
+    
+    
 </head>
-<body class="fondo">
+<body class="fondo" >
 
     <header>
         <h1 class="secundario"><span class="animal">Canis Lupus Familiaris</span></h1>
+        Introduce tu nombre: <input type="text" id="name" onblur="funcion_nom()">
+Introduce tu edad: <input type="text" id="age" onchange="funcion_edad()">
+
 
     </header>
     
     <main>
 
+        <p onclick="this.style.color='blue'">Este párrafo ...</p
+
                 
-                </script>
+    
         <p id="especial">CANIS LUPUS Familiaris</p>
         <h3 title="Canis Lupus Familiaris">Perro</h3>
      <table class="perro">
